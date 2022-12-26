@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro Component with Sign Up Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./src/Intro-component-with-sign-up-form.css" media="all">
+  <script src="./src/Intro-component-with-sign-up-form.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+  <meta name="description" content="Author: Federico Borzani, Intro Component with Sign Up Form">
+</head>
+
+<body>
+  <main class="card">
+    <h1>Learn to code by watching others</h1>
+    <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+    but understanding how developers think is invaluable.</p>
+    <span><strong>Try it free 7 days</strong> then $20/mo. thereafter</span>
+    <form action="post" target="#" novalidate>
+      <ul>
+        <li>
+          <input class="input" type="text" id="fname" name="first name" autocomplete="off" required>
+          <label for="fname">First Name</label>
+        </li>
+        <li>
+          <input class="input" type="text" id="lname" name="last name" autocomplete="off" required>
+          <label for="lname">Last Name</label>
+        </li>
+        <li>
+          <input class="input" type="email" id="email" name="email" autocomplete="off" required>
+          <label for="email">Email Address</label>
+        </li>
+        <li>
+          <input class="input" type="password" id="password" name="password" autocomplete="off" required>
+          <label for="password">Password(*)</label>
+          <i class="fa fa-eye" id="eye" tabindex="0"></i>
+        </li>
+      </ul>
+      <button type="submit" id="submitBtn">Claim your free trial</button>
+      <span>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></span>
+    </form>
+  </main>
+  <footer class="attribution">
+    (*) Password must have at least 8 characters and must contain: one upper case letter, one lower case letter, one digit and one special character.<br>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/eserengo/" target="_blank">Federico Borzani</a>.
+  </footer>
+</body>
+
+</html>
